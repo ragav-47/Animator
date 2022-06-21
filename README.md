@@ -1,6 +1,7 @@
 # Animator
 
 ## Aim:
+
 To develop a animator using unity.
 
 ## Algorithm:
@@ -36,8 +37,10 @@ Select the crouch and in the inspector choose Animation-> Root transform rotatio
 In blend tree, in blend type choose (2D Freedom Directional), parameter (InputX, InputY) , one crouch (0,-1,1) and walking (1,0,1). Bring the camera under the player 
 
 ## Program:
+
 ### IdleToCrouch
-```python
+
+```python3
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -62,15 +65,15 @@ public class idleToCrouch : MonoBehaviour
         animator.SetFloat("InputX", InputX);
     }
 }
+
 ```
 
-## Output:
-### CROUCHING:
-![Screenshot (55)](https://user-images.githubusercontent.com/75235488/174804261-c9913d66-4929-422e-82e2-5a118155771e.png)
-### WALKING
-![Screenshot (56)](https://user-images.githubusercontent.com/75235488/174804304-8762c6a2-e250-47f5-9169-45e7b904abe2.png)
+<br><br><br><br><br><br><br><br><br><br><br>
 
+## Output:
+![i3](https://user-images.githubusercontent.com/81132849/173627857-9cc9ff1c-e180-4ef7-bb0a-677f7833cb7d.png)
 
 
 ## Result:
+
 Animator using unity is developed successfully.
