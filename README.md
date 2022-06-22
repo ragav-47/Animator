@@ -1,4 +1,6 @@
-# Animator
+### EX NO : 06
+### DATE  : 09.06.2022
+# <p align="center">Animator<p/>
 
 ## Aim:
 
